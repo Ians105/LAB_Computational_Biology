@@ -1,0 +1,28 @@
+Exercise for Quiz Computational Biology
+
+For given DNA sequences:
+1.  Sequence X is obtained from FASTA file (x.fasta)
+2.  Sequence Y is obtained from FASTA file (y.fasta)
+3.  The sequences might be contain ambiguous letters. Use seq = seq.replace(“<letter>”, “”) function to remove the unwanted letter from the sequence.
+4.  The ambiguous letters can be any character so filter the sequence after reading it from fasta file is a must.
+
+Please use Biopython to do following operations:
+1.  Sequence Manipulation:
+    a.  Display the total length of Sequence X and Y.
+    b.  Display which index the first time the codon (CGC) appears in Sequence X and Y.
+    c.  Create a new sequence using the following task below:
+    d.  Take the first 10 nucleotides from Sequence X and the last 5 nucleotides from Sequence X.
+        -   Take the first 20 nucleotides from Sequence Y and the last 3 nucleotides from Sequence Y.
+        -   Combine both of the string above and reverse it to a new sequence, Sequence Z.
+2.  Sequence Analysis & Plotting
+    a.  Display the nucleotides base (A and C) frequency for Sequence Z with a chart using matplotlib library. You are free to plot using bar or pie chart.
+    b.  Display GC and AT content percentage for Sequence Z.
+    c.  Display melting temperature for Sequence Z using Wallace method.
+    d.  Display molecular weight for Sequence Z.
+3.  DNA and mRNA Protein Synthesis:
+    a.  Transcribe and display the DNA sequence Z into mRNA Sequence.
+    b.  Translate and display the mRNA sequence Z into amino acids Sequence.
+4.	Sequence Alginment & Similarities:
+    a.  Perform local alignment pairwise between sequence X and sequence Y and display the alignment score.
+    b.  Perform global alignment pairwise between sequence Y and sequence Z and display the alignment score
+    c.  Find and display the Hamming and Levenshtein distance between Sequence X and Y
