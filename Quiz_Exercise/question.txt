@@ -11,7 +11,7 @@ Please use Biopython to do following operations:
     a.  Display the total length of Sequence X and Y.
     b.  Display which index the first time the codon (CGC) appears in Sequence X and Y.
     c.  Create a new sequence using the following task below:
-    d.  Take the first 10 nucleotides from Sequence X and the last 5 nucleotides from Sequence X.
+        -   Take the first 10 nucleotides from Sequence X and the last 5 nucleotides from Sequence X.
         -   Take the first 20 nucleotides from Sequence Y and the last 3 nucleotides from Sequence Y.
         -   Combine both of the string above and reverse it to a new sequence, Sequence Z.
 2.  Sequence Analysis & Plotting
